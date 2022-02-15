@@ -5,7 +5,7 @@ let userInput: unknown;
 // string 또는 number를 쓸거라면 union type을 쓰는 것(let userInput: string | number)이 낫지만, 
 // unknown type은 타입을 미리 확인, 할수없는 것을 미리 알려준다.
 
-let userName: string;
+let userName1: string;
 
 userInput = 5;
 userInput = 'Jang';
@@ -17,7 +17,7 @@ userInput = 'Jang';
 
 
 if(typeof userInput === 'string'){ //여기서 먼저 userInput은 string이라고 정의했기 때문에 에러가 발생하지 않는다. 
-    userName = userInput;
+    userName1 = userInput;
 }
 
 //never

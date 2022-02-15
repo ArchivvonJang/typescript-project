@@ -1,2 +1,3 @@
 # typescript-project
-Typescript fundamental course &amp; project
+Typescript fundamental course & project
+

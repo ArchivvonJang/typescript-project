@@ -1,8 +1,10 @@
+
 {
   "name": "understanding-typescript",
   "version": "1.0.0",
-  "description": "Understanding TypeScript Course Setup",
-  "main": "app.js",
+  "description": "Understanding TypeScript Course Setup & Learning Typescript by making a Blockchain with it",
+  "main": "index.js",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server"
@@ -13,7 +15,16 @@
   ],
   "author": "Maximilian Schwarzmüller",
   "license": "ISC",
+
   "devDependencies": {
     "lite-server": "^2.5.4"
+    ,"tsc-watch" : "^1.0.17"
+  },
+  "dependencies": {
+    "cryto-js" : "^3.1.9-1"
+  },
+  "scripts": {
+    "start": "node index.ts",
+    "prestart": "tsc"
   }
 }
