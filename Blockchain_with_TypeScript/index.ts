@@ -3,7 +3,7 @@ const name = "jang" ,
     age = 25 ,
     gender  = "female";
 
-                        // ?붙이는 순간 gender parameter는 선택적인 것이 됨
+                        // '?'붙이는 순간 gender parameter는 선택적인 것이 됨
 const sayHi = (name: string, age: number, gender?: undefined) => {
     console.log(`Hello ${name}, you are ${age}, you are a ${gender}`);
 }
