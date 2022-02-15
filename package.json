@@ -7,7 +7,9 @@
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "onstart": "tsc --watch \"node /Blockchain_with_TypeScript/dist/index.ts\"",
+    "prestart": "tsc"
   },
   "keywords": [
     "typescript",
@@ -22,12 +24,5 @@
   },
   "dependencies": {
     "cryto-js" : "^3.1.9-1"
-  },
-  "scripts": {
-    "start": "tsc-watch --onSuccess \"node /Blockchain_with_TypeScript/dist/index.ts\" ",
-    "prestart": "tsc"
-  },
-  "peerDependencies": {
-    "tsc-watch": "^1.0.17"
   }
 }
