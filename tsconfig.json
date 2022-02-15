@@ -4,9 +4,9 @@
         "target" : "ES2015",
         "sourceMap": true,
         "strict": true,
-        "outDir": "/Blockchain_with_TypeScript/dist"
+        "outDir": "Blockchain_with_TypeScript/dist"
     },
-    "include": ["/Blockchain_with_TypeScript/src/**/*"],
+    "include": ["Blockchain_with_TypeScript/src/**/*"],
     "exclude": ["node_modules"]
     
 }
