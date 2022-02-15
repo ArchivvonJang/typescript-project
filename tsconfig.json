@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module" : "commonjs",
+        "target" : "ES2015",
+        "sourceMap": true,
+        "strict": true,
+        "outDir": "/Blockchain_with_TypeScript/dist"
+    },
+    "include": ["/Blockchain_with_TypeScript/src/**/*"],
+    "exclude": ["node_modules"]
+    
+}
