@@ -2,27 +2,23 @@
 {
   "name": "understanding-typescript",
   "version": "1.0.0",
-  "description": "Understanding TypeScript Course Setup & Learning Typescript by making a Blockchain with it",
+  "description": "Understanding TypeScript Course Setup",
   "main": "/Blockchain_with_TypeScript/index.js",
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server",
-    "onstart": "tsc --watch \"node /Blockchain_with_TypeScript/dist/index.ts\"",
-    "prestart": "tsc"
+    "start": "lite-server"
   },
   "keywords": [
     "typescript",
     "course"
   ],
-  "author": "Jang",
+  "author": "",
   "license": "ISC",
 
   "devDependencies": {
     "lite-server": "^2.5.4"
     ,"tsc-watch" : "^1.0.17"
-  },
-  "dependencies": {
-    "cryto-js" : "^3.1.9-1"
+    ,"cryto-js" : "^3.1.9-1"
   }
 }
